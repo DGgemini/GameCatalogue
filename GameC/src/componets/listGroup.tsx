@@ -11,15 +11,6 @@ interface listgroupProps {
 
 function ListGroup({ items, heading, onSelectItem }: listgroupProps) {
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  //arr[0] variable
-  //arr[1] updater function
-  // items = []
-  //const message = items.length === 0 ? <p>no item found</p> : null
-  // const getmessage = () => {
-  //   return items.length === 0 && <p>no item found</p>;
-  // };
-
-  //const handleClick = (event: MouseEvent) => console.log(event);
 
   return (
     <>
